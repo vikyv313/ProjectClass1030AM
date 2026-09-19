@@ -38,6 +38,21 @@ public class BaseClass {
 		driver.quit();
 	}
 
+	public void scrollUp() {
+		System.out.println("Scroll Up");
+
+	}
+
+	public void scrollDown() {
+		System.out.println("Scroll Down");
+
+	}
+
+	public void swipeLeft() {
+		System.out.println("Swipe Left");
+
+	}
+
 	public void swipeRight() {
 		System.out.println("Swipe Right");
 
