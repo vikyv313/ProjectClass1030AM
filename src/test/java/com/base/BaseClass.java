@@ -52,4 +52,20 @@ public class BaseClass {
 		System.out.println("Swipe Left");
 
 	}
+
+	public void swipeRight() {
+		System.out.println("Swipe Right");
+
+	}
+
+	public void horizontalSwipe() {
+		System.out.println("HOR");
+
+	}
+
+	public void veriticalSwipe() {
+		System.out.println("VERT");
+
+	}
+
 }
