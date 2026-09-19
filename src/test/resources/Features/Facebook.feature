@@ -23,3 +23,8 @@ Examples:
 |java@gmail.com|java@123|
 |python@gmail.com|python@123|
 |selenium@gmail.com|selenium@123|
+
+Scenario: TC_03 Validation of login page with invalid credential
+When User enters invalid username and password
+And User clicks on Login button
+Then User verifies error message is displayed
